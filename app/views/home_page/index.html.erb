@@ -1,24 +1,52 @@
 <div class="wrapper">
   <h1>Ruff Radar</h1>
-  <header>Welcome to Ruff Radar!</header>
+
+  <header><h1>Welcome to Ruff Radar!</h1>
+    <h2>What is ruff radar</h2>
+        <p>We are here to help new dog owners find new dogs for their family. We are a new startup where we like to list dogs
+          best off of features that anyone can look up! Welcome to Ruff Radar!
+  </p>
+      <h2>Find features of a dog:</h2>
+          <p>Here, you can search a dog by breed, gender, description and etc.
+  </p>
+</header>
+
   <nav>
     </h1>
           <ul>
-              <li>What is Ruff Radar?</li>
-              <li>How do you join?
-</li>
+              <%= link_to'Post your dog', controller: 'add_dog' %>
           </ul>
 </nav>
+
   <section>
-    <h2>What is ruff radar</h2>
-          <p>We are here to help new dog owners find new dogs for their family. We are a new startup where we like to list dogs
-          best off of features that anyone can look up! Welcome to Ruff Radar!
-  </p>
-          <p>
-              <img src="https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/">
-              <br> Image courtest Pexel
-    <h2>Find features of a dog:</h2>
-      <p>Here, you can search a dog by breed, gender, descption and etc.
-  </p>
+    <h2>Here are some dogs: </h2>
+    <p>
+          <img src="https://cdn.pixabay.com/photo/2019/08/19/07/45/pets-4415649_960_720.jpg" width="300">
+          <ul>
+            <li>Name: Slim</li>
+            <li>Breed: Labrador</li>
+            <li>Age: 2 years old</li>
+            <li>Email: SlimShadyTheDog@gmail.com</li>
+            <li>Description: Here is a Labrador who loves going on walks and loves getting along with others outside.</li>
+          </ul>
+
+          <img src="https://cdn.pixabay.com/photo/2018/04/12/01/51/mammal-3312352_960_720.jpg" width="300">
+          <ul>
+            <li>Name: Apollo</li>
+            <li>Breed: Pomeranian</li>
+            <li>Age: 1 years old</li>
+            <li>Email: Apollosthebest@gmail.com</li>
+            <li>Description: Meet Apollo, he loves to be friendly with everyone and loves playing ball.</li>
+          </ul>
+            
+          <img src="https://cdn.pixabay.com/photo/2016/02/19/11/53/pug-1210025_960_720.jpg" width="300">
+          <ul>
+            <li>Name: Beau</li>
+            <li>Breed: Pug</li>
+            <li>Age: 2 years old</li>
+            <li>Email: Listingmydog@gmail.com</li>
+            <li>Description: This is Barry, he will comfort as much as possible and loves to eat peanut butter.</li>
+          </ul>
+    </p>
 </section>
 </div>
