@@ -1,0 +1,2 @@
+class AddDog < ApplicationRecord
+end
